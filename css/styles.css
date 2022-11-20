@@ -235,13 +235,31 @@ iframe{
 /* MENÚ*/
 
 #bodyCarta{
-    height: 200vh;
+    height: 100vh;
     width: 100vw;
 }
 
 
 #menuContainer{
-    height: 115vh;
+    height: 75vh;
     width: 100vw;
+    padding-top: 3%;
 
+}
+
+#tituloCarta{
+    font-family: 'Comforter';
+    color: rgb(19, 92, 157);
+    font-size: 7vh;
+}
+
+.menu-title{
+    font-family: 'Comforter';
+    color: rgb(19, 92, 157);
+    font-size: 4vh;
+}
+
+.img-circle{
+    width: 70px;
+    height: 70px;
 }
