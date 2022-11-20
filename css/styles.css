@@ -1,0 +1,166 @@
+
+body{
+    height: 200vh;
+    width: 100vw;
+    background-size: cover;
+    
+}
+.container-fluid{
+    height: 100%;
+    width: 100%;
+   
+
+}
+
+#headerContainer{
+    height: 25vh;
+    
+}
+
+header{
+    height: 100%;
+    
+}
+
+
+#menuBar{
+    color: rgb(19, 92, 157);
+    font-family: 'Comforter';
+    font-size: 1cm;
+    margin-top: 4%;
+}
+
+
+.inicio{
+    width: 80px;
+    height: 80px;
+    
+
+}
+
+
+#home{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#homeImg{
+   
+}
+
+#menu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#contact{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+
+#nombreMarca{
+    height: 10%; 
+}
+
+
+@media screen and (min-width: 400px) {
+    .text-responsive {
+      font-size: 180px;
+    }
+    #aboutUs{
+        color: rgb(19, 92, 157);
+    }
+  }
+  
+
+@media screen and (max-width: 1100px) {
+    .text-responsive {
+      font-size: 70px;
+    }
+    #aboutUs{
+        color: white;
+    }
+  }
+
+#marcaIcono{
+    height: 30vh;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#titulo{
+    font-family: 'Comforter';
+    height: 30vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 92, 157);
+}
+
+#logo{
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    height: 30vh;
+}
+
+.img-fluid{
+    max-width: fit-content;
+    height: auto;
+}
+
+#quienSomos{
+   
+    height: 40vh;
+    display: flex;
+}
+
+#aboutUs{
+    position: relative;
+    font-family: 'Comforter';
+    font-size: 0.80cm;
+    text-align-last: center;
+    
+    overflow:hidden;
+    padding: 3%;
+}
+
+#firma{
+    width: 80%;
+    height: auto;
+    margin-top: 30%;
+    margin-right: 50%;
+}
+
+#galería{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#imagenesMosaico{
+    height: 70vh;
+    width: 100%;
+    margin-top: 5vh;
+
+}
