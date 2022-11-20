@@ -232,4 +232,16 @@ iframe{
 }
 
 
+/* MENÚ*/
 
+#bodyCarta{
+    height: 200vh;
+    width: 100vw;
+}
+
+
+#menuContainer{
+    height: 115vh;
+    width: 100vw;
+
+}
