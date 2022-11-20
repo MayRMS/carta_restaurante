@@ -94,6 +94,10 @@ header{
     #aboutUs{
         color: white;
     }
+    #mapa{
+        visibility: hidden;
+    }
+   
   }
 
 #marcaIcono{
@@ -164,3 +168,68 @@ header{
     margin-top: 5vh;
 
 }
+
+
+/* PÁGINA FORMULARIO CONTACTO*/
+
+#bodyContact{
+    height: 200vh;
+    width: 100vw;
+
+}
+
+#formContainer{
+    height: 60vh;
+    width: 100vw;
+    font-family: 'Comforter';
+    color: rgb(19, 92, 157);
+    font-size: 3.2vh;
+    padding-left: 3%;
+}
+
+#inputAddress{
+    width: auto;
+}
+
+#adressContainer{
+    height: 55vh;
+    width: 100vw;
+    font-family: 'Comforter';
+    color: rgb(19, 92, 157);
+    font-size: 3.2vh;
+    /*DIRECCIÓN */
+    text-align: left;
+    line-height: 1.8;
+    font-weight: normal;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+
+}
+
+#mapa{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 60vh;
+    width: 100vw;
+    background-size: cover;
+}
+#waveImg{
+    height: 100%;
+    width: 100%;
+}
+iframe{
+    height: 60%;
+    width: 60%;
+}
+
+
+
