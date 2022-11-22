@@ -12,17 +12,26 @@ body{
 }
 
 #solucionPadding{
-    padding-left: 0%;
-    padding-right: 0%;
+    padding: 0%;
+    margin: 0%;
+    max-width: 100%;
+}
+
+#solucionMargin{
+    margin-left: 0%;
+    margin-right: 0%;
+    max-width: 100%;
+
 }
 
 #headerContainer{
     height: 25vh;
-    
+    max-width: 100%;
 }
 
 header{
     height: 100%;
+    max-width: 100%;
     
 }
 
@@ -38,8 +47,6 @@ header{
 .inicio{
     width: 80px;
     height: 80px;
-    
-
 }
 
 
@@ -52,9 +59,7 @@ header{
 
 }
 
-#homeImg{
-   
-}
+
 
 #menu{
     
@@ -108,6 +113,7 @@ header{
     height: 30vh;
     display: flex;
     justify-content: flex-end;
+    max-width: 100%;
 
 }
 
@@ -119,6 +125,7 @@ header{
     justify-content: center;
     align-items: center;
     color: rgb(19, 92, 157);
+    max-width: 100%;
 }
 
 #logo{
@@ -126,6 +133,7 @@ header{
     position: relative;
     max-width: 100%;
     height: 30vh;
+    padding: 0%;
 }
 
 .img-fluid{
@@ -137,6 +145,7 @@ header{
    
     height: 40vh;
     display: flex;
+    max-width: 100%;
 }
 
 #aboutUs{
@@ -144,9 +153,9 @@ header{
     font-family: 'Comforter';
     font-size: 0.80cm;
     text-align-last: center;
-    
+    max-width: 100%;
     overflow:hidden;
-    padding: 3%;
+    padding: 2%;
 }
 
 #firma{
@@ -154,6 +163,7 @@ header{
     height: auto;
     margin-top: 30%;
     margin-right: 50%;
+    padding: 0%;
 }
 
 #galería{
